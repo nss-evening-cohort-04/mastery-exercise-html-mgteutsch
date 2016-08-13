@@ -1,0 +1,73 @@
+
+
+/* Overall Product Card Styling */
+.productcard {
+	width: 30%;
+	border: 1px solid lightblue;
+	box-shadow: 2px 2px 2px lightgrey;
+	display: inline-block;
+	text-align: justify;
+	display: inline-block;
+	margin: 7px;
+	
+}
+
+h1 {
+	text-align: center;
+	border-bottom: 1px dotted lightgrey; /* I didn't want the overlap of borders, so I just did bottom */	
+}
+
+/* Product Image/Description/Availability Section */
+.image {
+	text-align: center;
+}
+
+img {
+	height: 200px;
+	width: 80%;
+	max-width: 300px;
+	max-height: 100%;
+	border: 1px solid grey;
+	box-shadow: 2px 2px 2px #888888;
+	
+}
+
+.description {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 90%;
+}
+
+.availability {
+	background-color: darkgrey;
+	color: yellow;
+	font-size: 125%;
+	text-shadow: 3px black;
+	text-align: center;
+}
+
+
+/* Product Specification Section */
+h2 {
+	font-size: 110%;
+	text-align: center;
+	border-bottom: 1px dotted lightgrey;
+}
+
+.specifications {
+	text-align: center;
+	font-size: 90%;
+}
+
+.footer {
+	font-size: 10px;
+}
+
+/* Product Pricing Section */
+	/*h2 is the same as Product Spec*/
+
+.pricing {
+	text-align: center;
+	font-size: 90%;
+	font-weight: bold;
+}
